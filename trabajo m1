@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <title>Contructora TUPALA</title>
+  <!-- Ícono personalizado en el navegador -->
+  <link rel="icon" href="img/pala.ico" type="image/x-icon">
+</head>
+<body>
+  <!-- contenido de mi página web de contructora: esta corresponde al encabezado (heder) esta es la que se encuentra en la barra de navegación(navbar) esta tiene el logo de la empresa y el nombre-->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">
+        <img src="img/pala.ico" alt="Ícono de la pala" width="30" height="30" class="d-inline-block align-top">
+        TUPALA.SA
+      </a>
+    </nav>
+  </header>
+
+  <section>
+    <div class="container">
+        <h1>Bienvenido a Construtora TUPALA
+  <!-- este icono va en el titulo de bienvenida a la contructora, este es un recordatorio para mi, si necesito que valla el icono antes del texto debo pasar el codigo h1 agregarle un intro y pasarlo antes de la bienvenida-->
+            <img src="img/pala.ico" alt="Ícono de la pala" width="50" height="50" class="d-inline-block align-top">
+          </h1>
+      <p>Somos una empresa especializada en construcción y remodelación de viviendas. Nos enorgullece ser responsables y transparentes en todas nuestras operaciones. Ofrecemos una amplia gama de servicios para satisfacer todas sus necesidades en el ámbito de la construcción.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <h2>Nuestros Proyectos</h2>
+      <div class="row">
+        <div class="col-md-2">
+          <img src="img/img1.jpg" alt="Proyecto 1" class="img-fluid">
+        </div>
+        <div class="col-md-2">
+          <img src="img/img2.jpg" alt="Proyecto 2" class="img-fluid">
+        </div>
+        <div class="col-md-2">
+          <img src="img/img3.jpg" alt="Proyecto 3" class="img-fluid">
+        </div>
+        <div class="col-md-2">
+          <img src="img/img4.jpg" alt="Proyecto 4" class="img-fluid">
+        </div>
+        <div class="col-md-2">
+          <img src="img/img5.jpg" alt="Proyecto 5" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <h2>Contacto</h2>
+      <p>Para contactarnos complete el siguiente formulario:</p>
+      <form>
+        <div class="form-group">
+          <label for="nombre">Nombre</label>
+          <input type="text" class="form-control" id="nombre">
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" class="form-control" id="email">
+        </div>
+        <div class="form-group">
+          <label for="mensaje">Mensaje</label>
+          <textarea class="form-control" id="mensaje" rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container text-center">
+      <p>© 2023 Constructora TUPALA.SA</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4
